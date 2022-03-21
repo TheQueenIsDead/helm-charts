@@ -22,7 +22,7 @@ This helper allow to override the defaults that this common-library adds to all 
 {{- define "common.agentConfig.defaults.override" -}}
 {{/* **********************************************************************************
 ***************************************************************************************
-THIS IS AN EXAMPLE OF HOW THE CONFIG DEFAULS SHOULD GO.
+THIS IS AN EXAMPLE OF HOW THE CONFIG DEFAULTS SHOULD GO.
 This should not touch main/master because it has things that could break all the charts
 that use this library.
 nri-kubernetes has been taken as an example with the variables that it has hascoded.
@@ -50,7 +50,7 @@ THIS ALSO OVERRIDES USER'S PREFERENCES. USE WITH CARE.
 {{- define "common.agentConfig.override" -}}
 {{/* **********************************************************************************
 ***************************************************************************************
-THIS IS AN EXAMPLE OF HOW THE CONFIG DEFAULS SHOULD GO.
+THIS IS AN EXAMPLE OF HOW THE CONFIG DEFAULTS SHOULD GO.
 This should not touch main/master because it has things that could break all the charts
 that use this library.
 nri-kubernetes has been taken as an example with the variables that it has hascoded.
