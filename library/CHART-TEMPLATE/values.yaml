@@ -17,6 +17,7 @@ global:
   affinity: {}
 
 licenseKey: foobar
+cluster: barfoo
 
 replicaCount: 1
 
